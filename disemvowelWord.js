@@ -8,9 +8,8 @@
 // Note: for this kata y isn't considered a vowel. 
 
 function disemvowel(str) {
-    const letter = str.split("")
-    const vowelArr = ["a","e","i","o","u","A","E","I","O","U"]
-    const filt = letter.filter((alph) => !vowelArr.includes(alph))
-    return filt.join("")
-     
+    const letter = str.split("");
+    const vowelArr = ["a","e","i","o","u","A","E","I","O","U"];
+    const filt = letter.filter((alph) => !vowelArr.includes(alph));
+    return filt.join("");
     }
