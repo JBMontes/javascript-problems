@@ -8,7 +8,6 @@
 function isIsogram(str){
     let single = (str.toLowerCase().split(""))
     const number = new Set(single)
-    
     return number.size === single.length ? true : false
     
     }
